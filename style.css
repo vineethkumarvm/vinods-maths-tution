@@ -1,0 +1,245 @@
+*{
+    padding: 0px;
+    margin: 0px ;
+}
+.container{
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0 auto;
+}
+body{
+    background:linear-gradient( 90deg, rgba(253, 233, 233, 1) 0%, rgb(22, 221, 204) 60%);
+}
+
+nav{
+    padding: 40px 0;
+}
+.telephone1{
+    display: flex;
+    margin-right: 20px;
+    /*background-color: white;
+    */background: linear-gradient(90deg,white 0%,transparent 60%);
+    border: 1px solid white;
+    border-radius: 20px;
+}
+h1{
+    color: rgb(41, 76, 173);
+    
+    font-size: 50px;
+}
+.info{
+    display: flex;
+    margin-top: 20px;
+}
+.info i{
+    font-size: 15px;
+    padding-top: 2px;
+    margin: 5px;
+}
+.info p{
+    font-size: 17px;
+    margin: 5px;
+}
+.head{
+    display: flex;
+    margin-top: 0px;
+    
+}
+.mainpage{
+    width: 60%;
+}
+
+.telephone2{
+    display: flex;
+    
+    /*background-color: white;
+    */background: linear-gradient(90deg,orange 0%,rgb(122, 122, 235) 60%);
+    border: 1px solid white;
+    border-radius: 40px;
+    
+    text-align: center;
+    
+}
+
+.growskill{
+    width: 40%;
+}
+.tution{
+    display: flex;
+    margin-top: 20px;
+}
+.white{
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid;
+    box-shadow: 1px 1px black;
+    margin: 5px;
+}
+.white p{
+    margin: 5px;
+}
+.blocks{
+    border-radius: 10px;
+    display: grid;
+    margin-bottom: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+}
+.education{
+    text-align: center;
+    margin: 10px;
+    padding-left: 10px;
+}
+.filler{
+    margin: auto;
+    border-radius: 10px;
+    width: 350px;
+    height: 100px;
+    border: 1px solid white;
+    box-shadow: 1px 2px  black;
+    padding: 10px;
+    grid-column: span 1;
+}
+.filler3{
+    grid-column: span 2;
+}
+.whyimg{
+    display: grid;
+    padding: 20px;
+    margin: auto;
+    grid-template-columns: repeat(6, 1fr);
+    row-gap: 20px;
+}
+.imgtext{
+    border: 1px solid white;
+    box-shadow: 1px 2px black;
+    margin: auto;
+    border-radius: 10px;
+    grid-column: span 2;
+}
+.imgtext4{
+    justify-self: center;
+    grid-column: span 6;
+    
+}
+
+
+.imagecontent h2{
+    color: #824CEF;
+    font-size: 36px;
+    
+    margin: 50px;
+}
+.imagecontent{
+    margin: auto;
+    text-align: center;
+}
+.blurred2 {
+    position: absolute;
+    left: 1250px;
+    top: 1550px;
+}
+.blurred4{
+    position: absolute;
+    left: 100px;
+    top: 1450px;
+}
+.blurredstar{
+    position: absolute;
+    left: 1200px;
+    top: 920px;
+}
+.id img{
+    
+    height: 270px;
+    padding: 0 20px 0 0;
+    margin: 10px;
+    
+}
+.identity{
+    margin: 0 20px;
+}
+.id{
+    display: flex;
+    margin: 10% auto;
+    
+    max-width: 670px;
+    min-width: 250px;
+    padding: 0px;
+    border: 1px solid transparent;
+    box-shadow: 1px 1px 1px 1px black;
+    border-radius: 10px;
+    background-color: white;
+}
+.data{
+    color: white;
+    background: linear-gradient(#824CEF 0%,#F0A6CA 90%);
+    padding: 10px;
+    width: 450px;
+    box-shadow: 1px 1px black;
+    border-radius: 0 10px 10px 0;
+}
+.data p{
+    padding-top: 10px;
+}
+.data i{
+    padding-top: 10px;
+}
+.bottom{
+    position: absolute;
+    top: 2111px;
+    left: 495px;
+    z-index: -1;
+}
+.top{
+    position: absolute;
+    top: 1819px;
+    left: 1180px;
+    z-index: -1;
+}
+.purple{
+    background-color: #9C89B8;
+    border-radius: 20px;
+    border: 1px solid;
+    box-shadow: 1px 1px black;
+    margin: 5px;
+}
+.purple p{
+    margin: 5px;
+}
+@media only screen and (max-width:1125px) {
+    .mainpage {
+        display: none;
+    }
+    .blurred2{
+        display: none;
+    }
+    .blurred4{
+        display: none;
+    }
+    .blurredstar{
+        display: none;
+    }
+    .top{
+        display: none;
+    }
+    .bottom{
+        display: none;
+    }
+    .imgtext{
+        grid-column: span 3;
+    }
+    .growskill{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:794px) {
+    .imgtext{
+        grid-column: span 6;
+    }
+    .filler{
+        grid-column: span 2;
+    }
+    
+}
